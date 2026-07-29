@@ -219,9 +219,9 @@ This page allows users to investigate individual loan records associated with a 
 # Repository Structure
 
 ```text
-Loan-Portfolio-Analytics/
+Loan-Portfolio-Analytics-Dashboard/
 │
-├── Loan Analytics Dashboard.pbix
+├── Loan Portfolio Analytics Dashboard.pbix
 ├── Dataset Source URL.txt
 ├── README.md
 └── images/
