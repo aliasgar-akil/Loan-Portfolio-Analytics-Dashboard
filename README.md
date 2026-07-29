@@ -1,10 +1,10 @@
 # Overview
 
-The **Loan Portfolio Analytics Dashboard** is an interactive Power BI project developed to analyze the performance and risk of a consumer loan portfolio. It provides a centralized view of lending operations, portfolio health, and credit risk using interactive visuals and time-intelligent measures.
+The **Loan Portfolio Analytics Dashboard** is an interactive Power BI project that provides a comprehensive view of a consumer loan portfolio. It helps analyze lending performance, borrower characteristics, and credit risk through a collection of interactive dashboards designed for portfolio monitoring and decision-making.
 
-The dashboard enables users to assess portfolio performance, monitor lending trends, and identify high-risk borrower segments through interactive visualizations and dynamic filtering. It supports deep-dive analysis from portfolio-level KPIs down to borrower-level details.
+The report combines key performance indicators with borrower segmentation, trend analysis, and detailed loan-level exploration. Users can evaluate lending patterns across dimensions such as income, credit score, debt-to-income ratio, age group, and loan purpose, while using interactive filters and drill-through pages to investigate specific areas of interest.
 
-This project demonstrates an end-to-end business intelligence workflow, covering data preparation, data modeling, DAX measure development, time intelligence, and interactive dashboard design. By transforming raw loan records into a clean model and applying reusable measures, the dashboard supports decision-making across risk, product, operations, and executive teams.
+The project demonstrates an end-to-end Power BI workflow, including data preparation, data modeling, DAX measure development, time intelligence, and interactive report design. By transforming raw loan data into meaningful visualizations and business metrics, it enables stakeholders to better understand portfolio performance and identify potential areas of risk.
 
 ---
 
