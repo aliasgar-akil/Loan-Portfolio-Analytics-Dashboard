@@ -194,24 +194,45 @@ This page allows users to investigate individual loan records associated with a 
 
 ---
 
-## Business Insights
+# Business Insights
 
-- The portfolio contains 255,347 loans totaling $32.577 billion, and the dashboard reports an overall default rate of 11.6%.
+- The loan portfolio comprises **255,347 loans** with a total loan value of **32.577 billion**, maintaining an overall **default rate of 11.6%**.
 
-- Average loan size is approximately $127.14K and the portfolio's average interest rate is about 13.48%; the average borrower has a credit score of 574.26 and an average DTI of 0.50.
+- Borrowers with **Very Low Credit Scores** exhibit the highest default rate (**13.3%**), compared to **10.4%** for borrowers with **High Credit Scores**, highlighting a clear relationship between creditworthiness and repayment risk.
 
-- Low-income borrowers (≈28K loans, ~11% of portfolio) have a default rate of 22.0%, which is more than 2.3 times the 9.5% default rate observed for high-income borrowers (≈170K loans, ~67% of portfolio).
+- **Low Income** borrowers have the highest default rate (**22.0%**), which is more than **2.3×** the rate for **High Income** borrowers (**9.5%**), making income one of the strongest indicators of default risk.
 
-- Borrowers in the Very Low credit-score category have the highest default rate at 13.3%, while borrowers in the High category have a 10.4% default rate, showing a clear inverse relationship between credit score and default risk.
+- Borrowers with a **High Debt-to-Income (DTI)** ratio have a default rate of **12.2%**, compared to **10.8%** for borrowers with **Low DTI**, indicating that higher debt burdens are associated with increased credit risk.
 
-- Borrowers with High DTI have a default rate of 12.2% compared with 10.8% for Low DTI borrowers, indicating higher debt burden is associated with increased defaults.
+- Although **High Income** borrowers account for approximately **170K loans (67%)** of the portfolio, the highest default rates are observed among **Low Income** borrowers, suggesting that portfolio volume does not necessarily correspond to higher lending risk.
 
-- Loan amounts are distributed roughly evenly by purpose (≈20% per purpose, ≈$6.5 billion each), but Business loans carry the highest default rate at 12.3% while Home loans carry the lowest at 10.2%.
+- Loans are distributed almost evenly across loan purposes (approximately **20%** each), yet **Business loans** record the highest default rate (**12.3%**), while **Home loans** have the lowest (**10.2%**).
 
-- Adults and Middle-Aged Adults each represent about 98K loans (together approximately 77% of the portfolio), and average loan amounts are consistent across education levels (roughly $126.7K–$128.0K), indicating loan size does not vary materially by these demographics.
+- The borrower base is dominated by **Medium (36.4%)** and **High (36.1%)** credit score categories, while only **9.0%** of borrowers fall into the **Low Credit Score** category.
 
-- Key Influencer analysis shows Low Income is associated with an approximate +11.0 percentage point increase in Default Rate; year-over-year default metrics are relatively stable (around 11.5%–11.7% between 2013–2018), while YOY loan amount change fluctuated between approximately −2.5% and +1.7%.
+- The portfolio is concentrated among **Adults** and **Middle-Aged Adults**, each representing approximately **98K loans**, together accounting for nearly **77%** of all loans issued.
 
-These insights are taken directly from the dashboard visuals and are intended as a concise, quantitative summary for stakeholders.
+- Average loan amounts remain relatively consistent across borrower segments, ranging from approximately **126.7K to 128.0K**, indicating that borrower demographics have limited influence on loan size.
 
 ---
+
+# Repository Structure
+
+```text
+Loan-Portfolio-Analytics/
+│
+├── Loan Analytics Dashboard.pbix
+├── Loan_default.csv
+├── README.md
+└── images/
+    ├── Executive Dashboard.png
+    ├── Borrower Profile & Portfolio Analysis.png
+    ├── Credit Risk Analysis.png
+    └── Loan Purpose Analysis.png
+```
+
+---
+
+## Author
+
+**Ali Asgar Baghdadwala**
