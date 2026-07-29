@@ -1,10 +1,10 @@
 # Overview
 
-The **Loan Portfolio Analytics Dashboard** is an interactive Power BI project developed to analyze the performance and risk of a consumer loan portfolio. It provides a centralized view of lending operations by bringing together key portfolio metrics, borrower demographics, loan characteristics, and credit risk indicators into a single, interactive reporting solution.
+The **Loan Portfolio Analytics Dashboard** is an interactive Power BI project developed to analyze the performance and risk of a consumer loan portfolio. It provides a centralized view of lending o[...]
 
-The dashboard enables users to assess portfolio performance, monitor lending trends, and identify high-risk borrower segments through interactive visualizations and dynamic filtering. It supports deeper analysis with Year-over-Year trend comparisons, AI-powered insights, and drill-through functionality, allowing users to move seamlessly from a high-level portfolio overview to detailed analysis of specific loan segments.
+The dashboard enables users to assess portfolio performance, monitor lending trends, and identify high-risk borrower segments through interactive visualizations and dynamic filtering. It supports d[...]
 
-This project demonstrates an end-to-end business intelligence workflow, covering data preparation, data modeling, DAX measure development, time intelligence, and interactive dashboard design. By transforming raw loan data into clear and actionable insights, the dashboard supports informed decision-making in loan portfolio management and credit risk analysis.
+This project demonstrates an end-to-end business intelligence workflow, covering data preparation, data modeling, DAX measure development, time intelligence, and interactive dashboard design. By tr[...]
 
 ---
 
@@ -26,9 +26,9 @@ This project demonstrates an end-to-end business intelligence workflow, covering
 
 # Project Overview
 
-Financial institutions manage thousands of loans issued to borrowers with varying financial backgrounds and risk profiles. Understanding portfolio performance and identifying high-risk borrower segments are essential for improving lending strategies and minimizing defaults.
+Financial institutions manage thousands of loans issued to borrowers with varying financial backgrounds and risk profiles. Understanding portfolio performance and identifying high-risk borrower se[...]
 
-This dashboard provides an interactive solution to monitor key lending metrics, analyze borrower characteristics, evaluate portfolio risk, and investigate loan details using drill-through analysis.
+This dashboard provides an interactive solution to monitor key lending metrics, analyze borrower characteristics, evaluate portfolio risk, and investigate loan details using drill-through analysis[...]
 
 ---
 
@@ -194,3 +194,36 @@ This page allows users to investigate individual loan records associated with a 
 
 ---
 
+## Business Insights
+
+This section summarizes the key actionable insights surfaced by the dashboard visuals and what they mean for stakeholders.
+
+- Portfolio composition and performance
+  - The portfolio is diverse across borrower age, income, and loan purposes, with a mix of small-to-medium consumer loans and higher-value loans concentrated in specific borrower segments.
+  - Use the Executive Dashboard slicers (Year, Employment Type, Education) to monitor how portfolio composition shifts over time and across segments.
+
+- Risk concentration
+  - Default exposures are disproportionately concentrated among borrowers with lower credit-score categories and higher DTI buckets. Filtering the Credit Risk Analysis page quickly highlights these segments as higher-risk.
+  - Certain loan purposes (e.g., personal loans and credit card consolidation) show higher default rates in the drill-through Loan Purpose Analysis—consider tightening underwriting or pricing for these purposes.
+
+- Customer segmentation and product performance
+  - High average loan amounts are concentrated in higher-income and specific age groups. These segments drive a large portion of portfolio dollar volume and are important for growth-focused strategies.
+  - Lower-income segments have smaller loan sizes but higher default incidence, suggesting a need for adjusted underwriting, tailored products, or enhanced servicing for affordability.
+
+- Time trends and early warning signals
+  - Year-over-Year visuals indicate periods of rising loan originations; monitor YOY Default Loans Change alongside YOY Loan Amount Change to detect whether growth is accompanied by deteriorating credit quality.
+  - Use the Key Influencers and Decomposition visuals to identify leading indicators of default (e.g., rising DTI, falling credit scores, specific employment types) and build targeted early-warning rules.
+
+- Operational recommendations
+  - Strengthen underwriting for identified high-risk loan purposes and low credit-score/high-DTI segments.
+  - Implement targeted collections strategies and early interventions for segments flagged by Key Influencers.
+  - Consider pricing adjustments (interest rate or fees) for higher-risk loan purposes to maintain risk-adjusted returns.
+  - Expand products and cross-sell opportunities in high-value segments (higher income and strong credit score cohorts) to drive profitable growth.
+
+- How stakeholders should use the dashboard
+  - Executives: track portfolio-level KPIs and YOY trends for strategy and capital planning.
+  - Risk teams: use Credit Risk Analysis and drill-throughs to monitor emerging credit issues and adjust policies.
+  - Product teams: analyze performance by loan purpose and borrower segment to refine product features and pricing.
+  - Operations: use borrower-level drill-through to prioritize collections and customer outreach.
+
+---
