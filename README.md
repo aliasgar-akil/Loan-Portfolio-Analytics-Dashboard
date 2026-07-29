@@ -200,7 +200,7 @@ This page allows users to investigate individual loan records associated with a 
 
 - Borrowers with **Very Low Credit Scores** exhibit the highest default rate (**13.3%**), compared to **10.4%** for borrowers with **High Credit Scores**, highlighting a clear relationship between creditworthiness and repayment risk.
 
-- **Low Income** borrowers have the highest default rate (**22.0%**), which is more than **2.3×** the rate for **High Income** borrowers (**9.5%**), making income one of the strongest indicators of default risk.
+- **Low Income** borrowers have the highest default rate (**22.0%**), which is more than **twice** the rate for **High Income** borrowers (**9.5%**), making income one of the strongest indicators of default risk.
 
 - Borrowers with a **High Debt-to-Income (DTI)** ratio have a default rate of **12.2%**, compared to **10.8%** for borrowers with **Low DTI**, indicating that higher debt burdens are associated with increased credit risk.
 
