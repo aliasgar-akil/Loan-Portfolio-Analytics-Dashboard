@@ -219,7 +219,7 @@ This page allows users to investigate individual loan records associated with a 
 # Repository Structure
 
 ```text
-Loan-Portfolio-Analytics-Dashboard/
+Loan-Portfolio-Analytics-Dashboard
 │
 ├── Loan Portfolio Analytics Dashboard.pbix
 ├── Dataset Source URL.txt
