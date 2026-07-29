@@ -1,10 +1,10 @@
 # Overview
 
-The **Loan Portfolio Analytics Dashboard** is an interactive Power BI project developed to analyze the performance and risk of a consumer loan portfolio. It provides a centralized view of lending o[...]
+The **Loan Portfolio Analytics Dashboard** is an interactive Power BI project developed to analyze the performance and risk of a consumer loan portfolio. It provides a centralized view of lending operations, portfolio health, and credit risk using interactive visuals and time-intelligent measures.
 
-The dashboard enables users to assess portfolio performance, monitor lending trends, and identify high-risk borrower segments through interactive visualizations and dynamic filtering. It supports d[...]
+The dashboard enables users to assess portfolio performance, monitor lending trends, and identify high-risk borrower segments through interactive visualizations and dynamic filtering. It supports deep-dive analysis from portfolio-level KPIs down to borrower-level details.
 
-This project demonstrates an end-to-end business intelligence workflow, covering data preparation, data modeling, DAX measure development, time intelligence, and interactive dashboard design. By tr[...]
+This project demonstrates an end-to-end business intelligence workflow, covering data preparation, data modeling, DAX measure development, time intelligence, and interactive dashboard design. By transforming raw loan records into a clean model and applying reusable measures, the dashboard supports decision-making across risk, product, operations, and executive teams.
 
 ---
 
@@ -26,9 +26,9 @@ This project demonstrates an end-to-end business intelligence workflow, covering
 
 # Project Overview
 
-Financial institutions manage thousands of loans issued to borrowers with varying financial backgrounds and risk profiles. Understanding portfolio performance and identifying high-risk borrower se[...]
+Financial institutions manage thousands of loans issued to borrowers with varying financial backgrounds and risk profiles. Understanding portfolio performance and identifying high-risk borrower segments is critical to maintaining portfolio health and supporting growth strategies.
 
-This dashboard provides an interactive solution to monitor key lending metrics, analyze borrower characteristics, evaluate portfolio risk, and investigate loan details using drill-through analysis[...]
+This dashboard provides an interactive solution to monitor key lending metrics, analyze borrower characteristics, evaluate portfolio risk, and investigate loan details using drill-through analysis and influencer models.
 
 ---
 
@@ -196,34 +196,22 @@ This page allows users to investigate individual loan records associated with a 
 
 ## Business Insights
 
-This section summarizes the key actionable insights surfaced by the dashboard visuals and what they mean for stakeholders.
+- The portfolio contains 255,347 loans totaling $32.577 billion, and the dashboard reports an overall default rate of 11.6%.
 
-- Portfolio composition and performance
-  - The portfolio is diverse across borrower age, income, and loan purposes, with a mix of small-to-medium consumer loans and higher-value loans concentrated in specific borrower segments.
-  - Use the Executive Dashboard slicers (Year, Employment Type, Education) to monitor how portfolio composition shifts over time and across segments.
+- Average loan size is approximately $127.14K and the portfolio's average interest rate is about 13.48%; the average borrower has a credit score of 574.26 and an average DTI of 0.50.
 
-- Risk concentration
-  - Default exposures are disproportionately concentrated among borrowers with lower credit-score categories and higher DTI buckets. Filtering the Credit Risk Analysis page quickly highlights these segments as higher-risk.
-  - Certain loan purposes (e.g., personal loans and credit card consolidation) show higher default rates in the drill-through Loan Purpose Analysis—consider tightening underwriting or pricing for these purposes.
+- Low-income borrowers (≈28K loans, ~11% of portfolio) have a default rate of 22.0%, which is more than 2.3 times the 9.5% default rate observed for high-income borrowers (≈170K loans, ~67% of portfolio).
 
-- Customer segmentation and product performance
-  - High average loan amounts are concentrated in higher-income and specific age groups. These segments drive a large portion of portfolio dollar volume and are important for growth-focused strategies.
-  - Lower-income segments have smaller loan sizes but higher default incidence, suggesting a need for adjusted underwriting, tailored products, or enhanced servicing for affordability.
+- Borrowers in the Very Low credit-score category have the highest default rate at 13.3%, while borrowers in the High category have a 10.4% default rate, showing a clear inverse relationship between credit score and default risk.
 
-- Time trends and early warning signals
-  - Year-over-Year visuals indicate periods of rising loan originations; monitor YOY Default Loans Change alongside YOY Loan Amount Change to detect whether growth is accompanied by deteriorating credit quality.
-  - Use the Key Influencers and Decomposition visuals to identify leading indicators of default (e.g., rising DTI, falling credit scores, specific employment types) and build targeted early-warning rules.
+- Borrowers with High DTI have a default rate of 12.2% compared with 10.8% for Low DTI borrowers, indicating higher debt burden is associated with increased defaults.
 
-- Operational recommendations
-  - Strengthen underwriting for identified high-risk loan purposes and low credit-score/high-DTI segments.
-  - Implement targeted collections strategies and early interventions for segments flagged by Key Influencers.
-  - Consider pricing adjustments (interest rate or fees) for higher-risk loan purposes to maintain risk-adjusted returns.
-  - Expand products and cross-sell opportunities in high-value segments (higher income and strong credit score cohorts) to drive profitable growth.
+- Loan amounts are distributed roughly evenly by purpose (≈20% per purpose, ≈$6.5 billion each), but Business loans carry the highest default rate at 12.3% while Home loans carry the lowest at 10.2%.
 
-- How stakeholders should use the dashboard
-  - Executives: track portfolio-level KPIs and YOY trends for strategy and capital planning.
-  - Risk teams: use Credit Risk Analysis and drill-throughs to monitor emerging credit issues and adjust policies.
-  - Product teams: analyze performance by loan purpose and borrower segment to refine product features and pricing.
-  - Operations: use borrower-level drill-through to prioritize collections and customer outreach.
+- Adults and Middle-Aged Adults each represent about 98K loans (together approximately 77% of the portfolio), and average loan amounts are consistent across education levels (roughly $126.7K–$128.0K), indicating loan size does not vary materially by these demographics.
+
+- Key Influencer analysis shows Low Income is associated with an approximate +11.0 percentage point increase in Default Rate; year-over-year default metrics are relatively stable (around 11.5%–11.7% between 2013–2018), while YOY loan amount change fluctuated between approximately −2.5% and +1.7%.
+
+These insights are taken directly from the dashboard visuals and are intended as a concise, quantitative summary for stakeholders.
 
 ---
