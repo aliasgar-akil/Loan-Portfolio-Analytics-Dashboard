@@ -75,7 +75,7 @@ The dashboard is built using a loan portfolio dataset containing **255,347 loan 
 
 # Microsoft Excel – Exploratory Data Analysis
 
-***Note:** The Excel workbook is not included in this repository due to its large file size. Screenshots of the exploratory data analysis have been provided below.*
+***Note:** The Excel workbook is not included in this repository due to its large file size. Screenshots of the exploratory data analysis have been provided below as well as in the images folder*
 
 Before developing the Power BI dashboard, exploratory data analysis (EDA) was performed in Microsoft Excel to understand the dataset, identify relationships between variables, and uncover borrower risk patterns. 
 
