@@ -41,6 +41,7 @@ The objective of this project is to analyze a consumer loan portfolio to identif
 The project follows a complete analytics workflow:
 
 1. **Exploratory Data Analysis (Excel)**
+   - Performed data quality checks for missing values and duplicate records.
    - Examined distributions of key variables using histograms.
    - Computed descriptive statistics for numerical features.
    - Performed correlation analysis between borrower attributes and default status.
@@ -73,13 +74,33 @@ The dashboard is built using a loan portfolio dataset containing **255,347 loan 
 
 ---
 
-# Microsoft Excel – Exploratory Data Analysis
+# Microsoft Excel – Data Quality Validation & Exploratory Data Analysis
 
-***Note:** The Excel workbook is not included in this repository due to its large file size. Screenshots of the exploratory data analysis have been provided below as well as in the images folder*
+***Note:** The Excel workbook is not included in this repository due to its large file size. Screenshots of the exploratory data analysis have been provided below as well as in the images folder.*
 
-Before developing the Power BI dashboard, exploratory data analysis (EDA) was performed in Microsoft Excel to understand the dataset, identify relationships between variables, and uncover borrower risk patterns. 
+Before developing the Power BI dashboard, data quality validation and exploratory data analysis (EDA) were performed in Microsoft Excel to understand the dataset, identify relationships between variables, and uncover borrower risk patterns.
 
-## 1. Descriptive Statistics
+## 1. Data Quality Validation
+
+Performed initial checks to validate the dataset before analysis:
+
+- Confirmed the dataset contains **255,347 rows and 19 columns**.
+- Checked for missing values across all columns using Excel `COUNTBLANK()`.
+- Confirmed **0 missing values** across all 19 columns.
+- Checked for duplicate records and confirmed **0 duplicate rows**.
+- Classified the dataset into numeric and categorical columns.
+
+### Dataset Summary
+
+<img width="254" height="175" alt="Excel-Dataset Summary" src="https://github.com/user-attachments/assets/23683dee-e038-483e-9dea-f26069525a4f" />
+
+### Missing Values Count
+
+<img width="362" height="510" alt="Excel-Missing Values Count" src="https://github.com/user-attachments/assets/76e8f9d9-5a6b-4f1b-bb20-ffd704858021" />
+
+---
+
+## 2. Descriptive Statistics
 
 Calculated summary statistics for key numerical variables including:
 
@@ -96,7 +117,7 @@ This analysis provided measures such as mean, median, minimum, maximum, standard
 
 ---
 
-## 2. Distribution Analysis
+## 3. Distribution Analysis
 
 Created boxplots and histograms to examine the distribution of:
 
@@ -113,7 +134,7 @@ These visualizations helped identify the spread and concentration of borrower an
 
 ---
 
-## 3. Customer Risk Segmentation
+## 4. Customer Risk Segmentation
 
 Performed correlation analysis between **Default Status** and key numerical variables:
 
@@ -124,7 +145,7 @@ Performed correlation analysis between **Default Status** and key numerical vari
 
 Conditional formatting was used to highlight positive and negative relationships with loan default.
 
-The findings were further explored using interactive PivotTable and slicers to segment borrowers based on:
+The findings were further explored using interactive PivotTables and slicers to segment borrowers based on:
 
 - Age Group
 - Income Bracket
