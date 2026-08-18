@@ -40,7 +40,7 @@ The objective of this project is to analyze a consumer loan portfolio to identif
 
 The project follows a complete analytics workflow:
 
-1. **Exploratory Data Analysis (Excel)**
+1. **Data Quality Validation & Exploratory Data Analysis (Excel)**
    - Performed data quality checks for missing values and duplicate records.
    - Examined distributions of key variables using histograms.
    - Computed descriptive statistics for numerical features.
