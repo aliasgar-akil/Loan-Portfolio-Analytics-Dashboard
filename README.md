@@ -85,8 +85,7 @@ Before developing the Power BI dashboard, data quality validation and explorator
 Performed initial checks to validate the dataset before analysis:
 
 - Confirmed the dataset contains **255,347 rows and 19 columns**.
-- Checked for missing values across all columns using Excel `COUNTBLANK()`.
-- Confirmed **0 missing values** across all 19 columns.
+- Checked for missing values across all columns using Excel `COUNTBLANK()` and confirmed **0 missing values** across all 19 columns
 - Checked for duplicate records and confirmed **0 duplicate rows**.
 - Classified the dataset into numeric and categorical columns.
 
