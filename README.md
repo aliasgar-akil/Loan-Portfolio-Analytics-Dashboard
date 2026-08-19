@@ -347,6 +347,8 @@ Loan-Portfolio-Analytics-Dashboard
     ├── Borrower Profile & Portfolio Analysis.png
     ├── Credit Risk Analysis.png
     ├── Loan Purpose Analysis.png
+    ├── Excel-Dataset Summary.png
+    ├── Excel-Missing Values Count.png
     ├── Excel-Descriptive Statistics.png
     ├── Excel-Distribution Analysis.png
     └── Excel-Customer Risk Segmentation.png
